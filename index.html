@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's User Journey Map</title>
+    <style>
+        /* 背景和字体设置 */
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            margin: 20px;
+            padding: 0;
+            color: #343a40;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #007bff;
+        }
+        .stage {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f1f3f5;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .stage h3 {
+            background-color: #28a745;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .stage:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .stage p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+        /* 悬停效果 */
+        .stage:hover h3 {
+            background-color: #218838;
+        }
+        /* 分隔线 */
+        hr {
+            border: 0;
+            height: 2px;
+            background: #007bff;
+            margin: 40px 0;
+            border-radius: 5px;
+        }
+        /* 动态标题效果 */
+        h1 {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* 图片样式 */
+        .sam-image {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sam's User Journey Map</h1>
+
+        <!-- 插入Sam图片 -->
+       <img src="file:///C:/Users/wyf28/OneDrive/Desktop/CCT260/week4/images/sam.jpg" alt="Pixel Art of Sam" class="sam-image" style="width:300px;">
+
+        <hr>
+
+        <!-- Stage 1: Planning the Trip -->
+        <div class="stage">
+            <h3>Stage 1: Planning the Trip</h3>
+            <p><strong>Actions:</strong> Sam opens their phone and uses a public transport app to plan the trip to the new gallery. They double-check the bus and subway connections, trying to figure out how much time the journey will take.</p>
+            <p><strong>Thoughts & Feelings:</strong> Sam feels anxious about traveling to an unfamiliar part of the city but is reassured by the transport app's guidance.</p>
+            <p><strong>Goals:</strong> To find a reliable and efficient route.</p>
+            <p><strong>Pain Points:</strong> Uncertainty about the walking distance between the subway and gallery.</p>
+        </div>
+
+        <!-- Stage 2: Leaving the House -->
+        <div class="stage">
+            <h3>Stage 2: Leaving the House</h3>
+            <p><strong>Actions:</strong> Sam checks the transport app one last time before leaving. They pack essentials and leave with enough buffer time for potential delays.</p>
+            <p><strong>Thoughts & Feelings:</strong> Excited but also nervous about catching the bus on time.</p>
+            <p><strong>Goals:</strong> To leave early enough to avoid rushing.</p>
+            <p><strong>Pain Points:</strong> Worried about any unexpected delays on the way to the bus stop.</p>
+        </div>
+
+        <!-- Stage 3: Taking the Bus -->
+        <div class="stage">
+            <h3>Stage 3: Taking the Bus</h3>
+            <p><strong>Actions:</strong> On the bus, Sam keeps an eye on the app and checks the real-time map to ensure they are on the correct route.</p>
+            <p><strong>Thoughts & Feelings:</strong> Focused and slightly nervous about the transfer to the subway.</p>
+            <p><strong>Goals:</strong> To reach the subway station in time for the next transfer.</p>
+            <p><strong>Pain Points:</strong> Difficulty hearing the bus stop announcements and concerns about potential traffic delays.</p>
+        </div>
+
+        <!-- Stage 4: Subway Transfer -->
+        <div class="stage">
+            <h3>Stage 4: Subway Transfer</h3>
+            <p><strong>Actions:</strong> Sam gets off the bus and enters the subway station. They check their phone again to ensure they are heading toward the right platform. After purchasing a subway ticket, they head toward the platform and wait for the train.</p>
+            <p><strong>Thoughts & Feelings:</strong> Sam feels relieved after successfully making the bus-to-subway transfer but remains nervous about the next stage of the journey.</p>
+            <p><strong>Goals:</strong> To get on the correct subway train, ensuring they are traveling in the right direction.</p>
+            <p><strong>Pain Points:</strong> Sam finds the subway station a bit crowded, adding to their uncertainty about whether they’re on the right platform.</p>
+        </div>
+
+        <!-- 可以继续增加其他阶段... -->
+
+    </div>
+
+</body>
+</html>
